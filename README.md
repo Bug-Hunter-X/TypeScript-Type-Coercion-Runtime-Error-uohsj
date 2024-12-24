@@ -1,0 +1,1 @@
+This example demonstrates a subtle issue in TypeScript where type coercion can lead to runtime errors that are not caught during compilation.  The `add` function is declared to accept two numbers, but it's called with strings. TypeScript doesn't prevent this, resulting in string concatenation instead of numerical addition at runtime. The solution shows how to improve type safety.
